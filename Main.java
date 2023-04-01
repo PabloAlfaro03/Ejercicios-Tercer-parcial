@@ -1,17 +1,9 @@
-
-import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
 
-    Manager manager = new Manager();
-    try {
+       Lector miLectorExamen = new Lector();
+        miLectorExamen.ejecutar(173549);
 
-        manager.correrPrograma();
 
-        System.out.println("Archivos generados");
-    }catch (IOException e){
-        System.out.println("Error intente de nuevo" + e.getMessage());
-
-    }
     }
 }
